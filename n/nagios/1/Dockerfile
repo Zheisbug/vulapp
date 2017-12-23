@@ -1,4 +1,4 @@
-FROM quantumobject/docker-nagios:latest
+FROM rhmap/nagios4:4.1.0-219
 
 COPY src/exp.php /usr/local/nagios/share/exp.php
 
